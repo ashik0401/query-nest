@@ -119,17 +119,17 @@ Follow these steps to run the project on your local machine:
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 
-📦 Step 2: Install & Run the Client
+### 📦 Step 2: Install & Run the Client
 - cd client
 -npm install
 -npm run dev
 
-⚙️ Step 3: Install & Run the Server
+### ⚙️ Step 3: Install & Run the Server
 -cd server
 -npm install
 -npm run start
 
-🔐 Step 4: Environment Variables Setup
+### 🔐 Step 4: Environment Variables Setup
 -client/.env
 REACT_APP_API_URL=http://localhost:<SERVER_PORT>
 # Other client-specific env variables like API keys
