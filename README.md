@@ -107,28 +107,29 @@ The Product Recommendation System helps users to:
 - Environment variable security
 - Deployment with CORS and route reload support
 
-🛠️ Local Installation and Setup
-1. Clone the repository
+## 🛠️ Local Installation and Setup
+
+## 1. Clone the repository
 git clone https://github.com/your-username/product-recommendation-system.git
 cd product-recommendation-system
 
-2. Setup the Client
-cd client
-npm install
+## 2. Setup the Client
+-cd client
+-npm install
 
-Create a .env file inside the /client folder with:
-REACT_APP_API_URL=http://localhost:5000
-REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
-REACT_APP_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
-REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id
-REACT_APP_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
-REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_firebase_sender_id
-REACT_APP_FIREBASE_APP_ID=your_firebase_app_id
+-Create a .env file inside the /client folder with:
+-REACT_APP_API_URL=http://localhost:5000
+-REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
+-REACT_APP_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+-REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id
+-REACT_APP_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+-REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_firebase_sender_id
+-REACT_APP_FIREBASE_APP_ID=your_firebase_app_id
 
-Start the React client:
-npm run dev
+-Start the React client:
+-npm run dev
 
-3. Setup the Server
+## 3. Setup the Server
 cd ../server
 npm install
 
