@@ -1,20 +1,16 @@
 # Product Recommendation System
 
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](#)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](#)
-[![Live Site](https://img.shields.io/badge/live-site-brightgreen)](https://query-nest-two.vercel.app/)
-
 A dynamic and responsive web application that allows users to post queries about products they wish to avoid and get product recommendations from other users. The platform promotes informed decision-making through community feedback and suggestions.
 
 ## 🌐 Live Site
 
-[Visit Live Site](https://query-nest-two.vercel.app/)
+[Visit Live Website](https://query-nest-a854a.web.app/)
 
 ## 🚀 Project Purpose
 
 The Product Recommendation System helps users to:
 - Post queries about products they are not satisfied with.
-- Receive better product alternatives through recommendations.
+- Get better product alternatives through recommendations.
 - Interact with community queries.
 - Manage personal queries and recommendations with full CRUD functionality.
 
@@ -26,17 +22,17 @@ The Product Recommendation System helps users to:
 - User state maintained on route reloads using cookies and JWT.
 
 ### Core Functionality
-- Add Query: Authenticated users can submit queries about unsatisfactory products.
-- My Queries: Users can view, update, and delete their own queries.
-- All Queries: View all user queries with search and layout toggle features.
-- Query Details: See query details and user information, and add/view recommendations.
-- Add Recommendations: Suggest better alternatives with reasons and media.
-- My Recommendations: View and delete personal recommendations.
-- Recommendations For Me: View recommendations made by others for your queries.
+- **Add Query**: Authenticated users can submit queries about unsatisfactory products.
+- **My Queries**: Users can view, update, and delete their own queries.
+- **All Queries**: View all user queries with search and layout toggle features.
+- **Query Details**: See query details and user information, and add/view recommendations.
+- **Add Recommendations**: Suggest better alternatives with reasons and media.
+- **My Recommendations**: View and delete personal recommendations.
+- **Recommendations For Me**: View recommendations made by others for your queries.
 
 ### Extra Home Page Components
-- TrendingDiscussions: Highlights popular discussions.
-- WhyChooseUs: Emphasizes the platform's value and vision.
+- **TrendingDiscussions**: Highlights popular discussions.
+- **WhyChooseUs**: Emphasizes the platform's value and vision.
 
 ### UI/UX
 - Beautiful, responsive design for mobile, tablet, and desktop.
@@ -49,9 +45,9 @@ The Product Recommendation System helps users to:
 - JWT token stored in cookies for authentication.
 - Protected backend routes with token verification middleware.
 
-## 🛠️ Tools & Technologies
+### Tools & Technologies
 
-### Client Side
+**Client Side**
 - React
 - React Router
 - Firebase Authentication
@@ -61,7 +57,7 @@ The Product Recommendation System helps users to:
 - React Icons
 - SweetAlert2
 
-### Server Side
+**Server Side**
 - Node.js
 - Express.js
 - MongoDB
@@ -71,7 +67,7 @@ The Product Recommendation System helps users to:
 
 ## 📦 NPM Packages Used
 
-### Frontend
+**Frontend**
 - axios
 - react-router-dom
 - react-hot-toast
@@ -79,7 +75,7 @@ The Product Recommendation System helps users to:
 - react-icons
 - firebase
 
-### Backend
+**Backend**
 - express
 - cors
 - jsonwebtoken
@@ -111,58 +107,54 @@ The Product Recommendation System helps users to:
 - Environment variable security
 - Deployment with CORS and route reload support
 
-## 🛠️ Getting Started Locally
+## 🛠️ Local Installation and Setup
 
-### 🔽 Step 1: Clone the Repository
+## 1. Clone the repository
+git clone https://github.com/your-username/product-recommendation-system.git
+cd product-recommendation-system
 
+## 2. Setup the Client
+- cd client
+- npm install
 
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo> 
-📦 Step 2: Install & Run the Client
-bash
-Copy
-Edit
-cd client
-npm install
-npm run dev
-⚙️ Step 3: Install & Run the Server
-bash
-Copy
-Edit
-cd server
-npm install
-npm run start
-🔐 Step 4: Environment Variables Setup
-env
-Copy
-Edit
-# client/.env
-REACT_APP_API_URL=http://localhost:5000
+- Create a .env file inside the /client folder with:
+- REACT_APP_API_URL=http://localhost:5000
+- REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
+- REACT_APP_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+- REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id
+- REACT_APP_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+- REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_firebase_sender_id
+- REACT_APP_FIREBASE_APP_ID=your_firebase_app_id
 
-# server/.env
-PORT=5000
-DB_USER=your_db_user
-DB_PASS=your_db_password
-JWT_SECRET=your_jwt_secret
-✅ Deployment Checkpoints
-No CORS/404/504 issues
+- Start the React client:
+- npm run dev
 
-Firebase domain authorization included
+## 3. Setup the Server
+- cd ../server
+- npm install
 
-Private routes protected with JWT
+- Create a .env file inside the /server folder with:
+- PORT=5000
+- MONGO_URI=your_mongodb_connection_string
+- JWT_SECRET=your_jwt_secret
+- FIREBASE_SERVICE_ACCOUNT=your_firebase_service_account_json_as_string_or_path
 
-Reload-safe route protection
+- Start the server:
+- npm run start
 
-Fully working client and server on deployment
+ - Open in Browser
+ - Go to http://localhost:3000 to use the application locally.
+- 
 
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## ✅ Deployment Checkpoints
 
-👨‍💻 Author
-Ashik Mahmud
+- No CORS/404/504 issues
+- Firebase domain authorization included
+- Private routes protected with JWT
+- Reload-safe route protection
+- Fully working client and server on deployment
 
-GitHub: ashik0401
+## 👨‍💻 Author
 
-LinkedIn: linkedin.com/in/ashikmahmud
+**Ashik Mahmud**  
 
-Email: ashik04am@gmail.com
