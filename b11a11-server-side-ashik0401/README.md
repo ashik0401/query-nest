@@ -107,6 +107,42 @@ The Product Recommendation System helps users to:
 - Environment variable security
 - Deployment with CORS and route reload support
 
+## 🛠️ Getting Started Locally
+
+Follow these steps to run the project on your local machine:
+
+---
+
+### 🔽 Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+
+📦 Step 2: Install & Run the Client
+- cd client
+-npm install
+-npm run dev
+
+⚙️ Step 3: Install & Run the Server
+-cd server
+-npm install
+-npm run start
+
+🔐 Step 4: Environment Variables Setup
+-client/.env
+REACT_APP_API_URL=http://localhost:<SERVER_PORT>
+# Other client-specific env variables like API keys
+
+-server/.env
+PORT=<SERVER_PORT>
+DB_USER=<your_db_user>
+DB_PASS=<your_db_password>
+JWT_SECRET=<your_jwt_secret>
+# Other server-specific secrets
+
+
+
 ## ✅ Deployment Checkpoints
 
 - No CORS/404/504 issues
