@@ -110,8 +110,7 @@ The Product Recommendation System helps users to:
 ## 🛠️ Local Installation and Setup
 
 ## 1. Clone the repository
-git clone https://github.com/your-username/product-recommendation-system.git
-cd product-recommendation-system
+
 
 ## 2. Setup the Client
 - cd client
