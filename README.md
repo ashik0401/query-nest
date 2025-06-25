@@ -4,7 +4,7 @@ A dynamic and responsive web application that allows users to post queries about
 
 ## 🌐 Live Site
 
-[Visit Live site](https://query-nest-two.vercel.app/)
+[Visit Live Website](https://query-nest-a854a.web.app/)
 
 ## 🚀 Project Purpose
 
